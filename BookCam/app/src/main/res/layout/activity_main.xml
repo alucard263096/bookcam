@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bucctech.alucard.bookcam.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="0dp"
+        android:layout_y="0dp">
+
+        <TextView
+            android:id="@+id/txtContext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/main_button"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_x="2dp"
+        android:layout_y="430dp"
+        android:text="拍照" />
+
+    <SurfaceView
+        android:id="@+id/main_surface_view"
+        android:layout_width="32dp"
+        android:layout_height="48dp"
+        android:layout_x="6dp"
+        android:layout_y="372dp" />
+
+</AbsoluteLayout>
